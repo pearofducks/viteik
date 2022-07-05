@@ -1,0 +1,13 @@
+{
+  "name": "viteik",
+  "version": "1.0.0",
+  "description": "A shim to make working with Vite and Eik easy",
+  "main": "index.js",
+  "type": "module",
+  "keywords": ["vite", "eik"],
+  "author": "Dave Honneffer",
+  "license": "MIT",
+  "peerDependencies": {
+    "@eik/rollup-plugin": "*"
+  }
+}
