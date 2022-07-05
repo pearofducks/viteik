@@ -1,9 +1,10 @@
 {
   "name": "viteik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A shim to make working with Vite and Eik easy",
   "main": "index.js",
   "type": "module",
+  "types": "types.d.ts",
   "keywords": ["vite", "eik"],
   "author": "Dave Honneffer",
   "license": "MIT",

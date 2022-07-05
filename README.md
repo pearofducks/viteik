@@ -18,6 +18,7 @@ import VitEik, { outputOptions } from 'viteik'
 
 export default defineConfig({
   plugins: [VitEik()],
+  // Any options for the Eik Rollup plugin can be passed to VitEik
   build: {
     rollupOptions: {
       input: './client/main.js',
