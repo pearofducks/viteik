@@ -13,3 +13,8 @@ export const outputOptions = {
   chunkFileNames: '[name].js'
 }
 
+export const getBase = ({ pkg, name, version } = {}) => {
+  if (pkg) ;({ name, version } = pkg)
+  return `https://assets.finn.no/pkg/${name}/${version}/`
+}
+
